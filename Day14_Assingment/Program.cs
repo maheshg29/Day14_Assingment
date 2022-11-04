@@ -19,6 +19,33 @@ namespace Day14_Assingment
                     Console.WriteLine(data);
                 }
 
+            //UC2
+            Console.WriteLine("Remove Data");
+            Console.WriteLine(my_list.ElementAt(0));
+            my_list.RemoveFirst();
+
+            foreach (int data in my_list)
+            {
+                Console.WriteLine("after removing");
+                Console.WriteLine(data);
+            }
+            Console.WriteLine(my_list.ElementAt(0));
+            my_list.RemoveFirst();
+
+            foreach (int data in my_list)
+            {
+                Console.WriteLine("after removing");
+                Console.WriteLine(data);
+            }
+            Console.WriteLine(my_list.ElementAt(0));
+            my_list.RemoveFirst();
+            foreach (int data in my_list)
+            {
+                Console.WriteLine("after removing");
+                Console.WriteLine(data);
+            }
+            my_list.Clear();
+
         }
     }
 }
