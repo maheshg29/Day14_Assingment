@@ -8,21 +8,17 @@ namespace Day14_Assingment
         public static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Day 14 Assingment");
-
-               
+            //UC1
                 LinkedList<int> my_list = new LinkedList<int>();
-   
                 my_list.AddFirst(70);
                 my_list.AddFirst(30);
                 my_list.AddFirst(56);
-            
 
-                
                 foreach (int data in my_list)
                 {
                     Console.WriteLine(data);
                 }
 
-            }
+        }
     }
 }
