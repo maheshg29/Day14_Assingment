@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+
 
 namespace Day14_Assingment
 {
@@ -49,7 +51,14 @@ namespace Day14_Assingment
             linklist1.Enqueue(56);
             linklist1.Enqueue(30);
             linklist1.Enqueue(70);
-           
+          
+          
+            linklist1.Dequeue();
+            linklist1.Dequeue();
+            linklist1.Dequeue();
+
+
+
 
         }
     }
