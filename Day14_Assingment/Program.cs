@@ -45,6 +45,11 @@ namespace Day14_Assingment
             }
             my_list.Clear();
 
+            linklist1 linklist1 = new linklist1();
+            linklist1.Enqueue(56);
+            linklist1.Enqueue(30);
+            linklist1.Enqueue(70);
+           
 
         }
     }
