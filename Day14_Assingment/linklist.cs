@@ -59,27 +59,8 @@ namespace Day14_Assingment
             Console.WriteLine("{0} inserted into Queue", item);
         }
 
-        internal void Dequeue()
-        {
-            // If queue is empty, return NULL. 
-            if (this.front == null)
-            {
-                Console.WriteLine("The Queue is empty");
-                return;
-            }
+       
 
-            // Store previous front and move front one node ahead 
-            Node temp = this.front;
-            this.front = this.front.next;
-
-            // If front becomes NULL, then change rear also as NULL 
-            if (this.front == null)
-            {
-                this.rear = null;
-            }
-
-            Console.WriteLine("Item deleted is {0}", temp.data);
-        }
 
     }
    
